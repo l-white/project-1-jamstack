@@ -8,6 +8,7 @@ let currentName = names[randomNum]
 
 document.querySelector('.name').append(currentName)
 
+/*
 fetch('https://api.imgflip.com/get_memes')
   .then((res) => res.json())
   .then((data) => {
@@ -18,3 +19,4 @@ fetch('https://api.imgflip.com/get_memes')
       document.getElementById('img-container').appendChild(img)
     }
   })
+  */
