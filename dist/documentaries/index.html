@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ title }}</title>
+  <title>Build with Template</title>
   <link rel="stylesheet" type="text/css" href="/css/index.css">
 </head>
 <body>
@@ -13,12 +13,18 @@
 <a class="navbar-list-item" href="/comedies"><li>Comedies</li></a>
 <a class="navbar-list-item" href="/crime"><li>Crime</li></a>
 <a class="navbar-list-item" href="/dramas"><li>Dramas</li></a>
+<a class="navbar-list-item" href="/dramas"><li>Documentaries</li></a>
 <a class="navbar-list-item" href="/contact"><li>Contact</li></a>
 </ul>
 </nav>
 <div class="content">
 <h1>Movie Picker</h1>
-  {{ content | safe }}
+  
+<div id='img-documentaries'>
+<h2>Documentaries</h2>
+
+</div>
+<script type="module" src='/js/index.js'></script>
 </div>
 </body>
 </html>

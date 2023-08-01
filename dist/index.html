@@ -4,14 +4,26 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Build with Template</title>
+  <link rel="stylesheet" type="text/css" href="/css/index.css">
 </head>
 <body>
+<nav class="navbar">
+<ul class="navbar-list">
+<a class="navbar-list-item" href="/index"><li>Home</li></a>
+<a class="navbar-list-item" href="/comedies"><li>Comedies</li></a>
+<a class="navbar-list-item" href="/crime"><li>Crime</li></a>
+<a class="navbar-list-item" href="/dramas"><li>Dramas</li></a>
+<a class="navbar-list-item" href="/contact"><li>Contact</li></a>
+</ul>
+</nav>
+<div class="content">
+<h1>Movie Picker</h1>
   
-<h1>Hello <span class='name'></span></h1>
-<h2>I am filled with gratitude today!</h2>
-<div id='img-container'>
-  
+<h2>Random Movie</h2>
+<div id='img-container' class='show'>
+
 </div>
-<script src='js/index.js'></script>
+<script type="module" src='js/index.js'></script>
+</div>
 </body>
 </html>
